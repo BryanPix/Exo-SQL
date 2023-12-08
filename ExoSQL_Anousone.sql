@@ -60,9 +60,21 @@ Exercice 13 :
 
 SELECT g_name, g_mode, g_pegi FROM games ORDER BY g_pegi ASC
 
+Exercice 14 :
 
+SELECT g_name, p_name FROM games_platforms , games 
+NATURAL JOIN platforms 
+ORDER BY g_name ASC
 
+Exercice 15 :
 
+SELECT COUNT(*) g_name FROM games
+
+Exercice 16 :
+
+SELECT COUNT(g_id) AS Uni FROM games
+
+Exercice 17 :
 
 
 
